@@ -1,5 +1,5 @@
 #include <stdio.h>
-int n;
+
 int result[9][9];
 int markR[9][9];
 int markC[9][9];
