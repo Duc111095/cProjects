@@ -24,10 +24,8 @@
         <mxCell id="VL5r8Yke_GIIwAKSGpIA-3" value="&lt;div&gt;Cập nhật giá - Bảng giá chung&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="366" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VL5r8Yke_GIIwAKSGpIA-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VL5r8Yke_GIIwAKSGpIA-4">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="266" y="150" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="VL5r8Yke_GIIwAKSGpIA-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VL5r8Yke_GIIwAKSGpIA-4" target="VL5r8Yke_GIIwAKSGpIA-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VL5r8Yke_GIIwAKSGpIA-4" value="&lt;div&gt;Cần có mã vật tư từng &lt;b&gt;pháp nhân&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="366" y="120" width="120" height="60" as="geometry" />
@@ -45,7 +43,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VL5r8Yke_GIIwAKSGpIA-10" value="&lt;div&gt;Để biết có mã hay không thì check tên vật tư trên Bảng giá chung - Cập nhật giá&lt;br&gt;- Nếu tên VT trắng, nghĩa là k có mã vật tư ở &lt;b&gt;Pháp nhân &lt;/b&gt;đó&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry y="120" width="264" height="60" as="geometry" />
+          <mxGeometry y="120" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VL5r8Yke_GIIwAKSGpIA-12" value="&lt;div&gt;Nếu không có TSKT trên &lt;b&gt;Minh An&lt;/b&gt; thì sẽ k hiện thông tin trên Bảng giá và thông tin của tất cả các pháp nhân. Cập nhật TSKT cho tất cả các pháp nhân&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry y="210" width="286" height="60" as="geometry" />
