@@ -1,9 +1,58 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0" version="25.0.3">
   <diagram name="Page-1" id="71SXkyPM9CVROoZCcq3N">
-    <mxGraphModel>
+    <mxGraphModel dx="1674" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VL5r8Yke_GIIwAKSGpIA-1" value="&lt;div&gt;Điểu kiện để có mã trên Bảng giá và thông tin trên từng pháp nhân&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="546" y="210" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VL5r8Yke_GIIwAKSGpIA-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VL5r8Yke_GIIwAKSGpIA-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="546" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VL5r8Yke_GIIwAKSGpIA-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VL5r8Yke_GIIwAKSGpIA-2" target="VL5r8Yke_GIIwAKSGpIA-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VL5r8Yke_GIIwAKSGpIA-2" value="&lt;div&gt;TSKT trên Cập nhật thông tin bảng giá chung ở Minh An&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="366" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VL5r8Yke_GIIwAKSGpIA-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VL5r8Yke_GIIwAKSGpIA-3" target="VL5r8Yke_GIIwAKSGpIA-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VL5r8Yke_GIIwAKSGpIA-3" value="&lt;div&gt;Cập nhật giá - Bảng giá chung&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="366" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VL5r8Yke_GIIwAKSGpIA-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VL5r8Yke_GIIwAKSGpIA-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="266" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VL5r8Yke_GIIwAKSGpIA-4" value="&lt;div&gt;Cần có mã vật tư từng &lt;b&gt;pháp nhân&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="366" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VL5r8Yke_GIIwAKSGpIA-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="486" y="300" as="sourcePoint" />
+            <mxPoint x="546" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VL5r8Yke_GIIwAKSGpIA-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="486" y="160" as="sourcePoint" />
+            <mxPoint x="546" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VL5r8Yke_GIIwAKSGpIA-10" value="&lt;div&gt;Để biết có mã hay không thì check tên vật tư trên Bảng giá chung - Cập nhật giá&lt;br&gt;- Nếu tên VT trắng, nghĩa là k có mã vật tư ở &lt;b&gt;Pháp nhân &lt;/b&gt;đó&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="120" width="264" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VL5r8Yke_GIIwAKSGpIA-12" value="&lt;div&gt;Nếu không có TSKT trên &lt;b&gt;Minh An&lt;/b&gt; thì sẽ k hiện thông tin trên Bảng giá và thông tin của tất cả các pháp nhân. Cập nhật TSKT cho tất cả các pháp nhân&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="210" width="286" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VL5r8Yke_GIIwAKSGpIA-14" value="&lt;div&gt;Cập nhật giá trên từng pháp nhân. Có thể on/ off sẽ không hiện giá trên từng pháp nhân&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="300" width="286" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
